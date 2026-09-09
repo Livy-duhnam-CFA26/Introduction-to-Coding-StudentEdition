@@ -1,0 +1,33 @@
+> 8+4=12
+  File "<stdin>", line 1
+    8+4=12
+    ^
+SyntaxError: cannot assign to operator
+>>> 8+4
+12
+>>> 8*4
+32
+>>> 6>2
+True
+>>> print (" age 13")
+ age 13
+>>> permission (yes/no): yes
+  File "<stdin>", line 1
+    permission (yes/no): yes
+    ^
+SyntaxError: illegal target for annotation
+>>> print (" permission ( yes/no)"()
+... 
+... print ("hi")
+  File "<stdin>", line 3
+    print ("hi")
+    ^
+SyntaxError: invalid syntax
+>>> print ("players:4");(" colors each:2");("total colors:8")
+players:4
+' colors each:2'
+'total colors:8'
+>>> print (" farenheit:56");("celcius : 13.3")
+ farenheit:56
+'celcius : 13.3'
+>>> 

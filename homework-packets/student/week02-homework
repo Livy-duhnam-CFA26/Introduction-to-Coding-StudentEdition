@@ -1,1 +1,37 @@
-u
+hello olivia
+>>> print (" color: int")
+ color: int
+>>> print ('int')
+int
+>>> print ('color: int')
+color: int
+>>> print (" < color 'float'")
+ < color 'float'
+>>> print ("< color 'int'")
+< color 'int'
+>>> print (" < color 'str'")
+ < color 'str'
+>>> print (" < color 'bool'")
+ < color 'bool'
+>>> print (" add your age!")
+ add your age!
+>>> print (" add your age:13")
+ add your age:13
+>>> print (" next year, you be age 14")
+ next year, you be age 14
+>>> print (" favorite season:fall")
+ favorite season:fall
+>>> print (" favorite color: green")
+ favorite color: green
+>>> print (" favorite hobby: art")
+ favorite hobby: art
+>>> pritn (" summary: fall, green, art.")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'pritn' is not defined
+>>> print (" summary: fall, green, art.")
+ summary: fall, green, art.
+>>> print (" name: olivia");("age:13");(" hobby:art")
+ name: olivia
+'age:13'
+' hobby:art'

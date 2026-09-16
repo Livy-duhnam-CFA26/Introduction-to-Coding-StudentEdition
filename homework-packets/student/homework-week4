@@ -1,0 +1,78 @@
+Welcome to Alpine!
+
+You can install packages with: apk add <package>
+
+You may change this message by editing /etc/motd.
+
+localhost:~# which python3
+/usr/bin/python3
+localhost:~# python3
+Python 3.9.16 (main, Dec 10 2022, 13:47:19) 
+[GCC 10.3.1 20210424] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> score >= 50 => pass else fail
+  File "<stdin>", line 1
+    score >= 50 => pass else fail
+    ^
+SyntaxError: cannot assign to comparison
+>>> score >= 50
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'score' is not defined
+>>> score >= 50
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'score' is not defined
+>>> score = 70
+>>> if score >= 50
+  File "<stdin>", line 1
+    if score >= 50
+                  ^
+SyntaxError: invalid syntax
+>>> print (" result: pass") 
+ result: pass
+>>> if score >= 50
+  File "<stdin>", line 1
+    if score >= 50
+                  ^
+SyntaxError: invalid syntax
+>>> print (" good job")
+ good job
+>>> child (12)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'child' is not defined
+>>> teen (13-17)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'teen' is not defined
+>>> adult (18+)
+  File "<stdin>", line 1
+    adult (18+)
+              ^
+SyntaxError: invalid syntax
+>>> raining? no
+  File "<stdin>", line 1
+    raining? no
+           ^
+SyntaxError: invalid syntax
+>>> print ( tempature:34)
+  File "<stdin>", line 1
+    print ( tempature:34)
+                     ^
+SyntaxError: invalid syntax
+>>> print (" raining?:yes")
+ raining?:yes
+>>> print ("advice: wear a waterproof hoodie")
+advice: wear a waterproof hoodie
+>>> print ("level:7")
+level:7
+>>> print (" gate:locked")
+ gate:locked
+>>> print (" enter passcode: dean542")
+ enter passcode: dean542
+>>> print(" game: unlocked")
+ game: unlocked
+>>> print (" note: ask teacher for help on friday")
+ note: ask teacher for help on friday
+>>> 

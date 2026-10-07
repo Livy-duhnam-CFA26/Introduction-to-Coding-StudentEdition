@@ -1,0 +1,55 @@
+Alpine!
+
+You can install packages with: apk add <package>
+
+You may change this message by editing /etc/motd.
+
+localhost:~# which python3
+/usr/bin/python3
+localhost:~# pthon3 
+-ash: pthon3: not found
+localhost:~# python3
+Python 3.9.16 (main, Dec 10 2022, 13:47:19) 
+[GCC 10.3.1 20210424] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> code(five)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'code' is not defined
+>>> code reversed
+  File "<stdin>", line 1
+    code reversed
+         ^
+SyntaxError: invalid syntax
+>>>  word="code"
+  File "<stdin>", line 1
+    word="code"
+IndentationError: unexpected indent
+>>> print (word[1])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'word' is not defined
+>>> word=("code")
+>>> print (word[1])
+o
+>>> item1:milk
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'milk' is not defined
+>>> print("item one:milk,item two:bread")
+item one:milk,item two:bread
+>>> number=[2 4 6 8]
+  File "<stdin>", line 1
+    number=[2 4 6 8]
+              ^
+SyntaxError: invalid syntax
+>>> number=[2468]
+>>> largest:
+  File "<stdin>", line 1
+    largest:
+            ^
+SyntaxError: invalid syntax
+>>> create 1.torch 2.food 3.sleeping bag
+  File "<stdin>", line 1
+    create 1.torch 2.food 3.sleeping bag
+           ^

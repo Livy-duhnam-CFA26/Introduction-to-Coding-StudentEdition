@@ -1,1 +1,83 @@
+
 hi
+python3 
+/usr/bin/python3
+localhost:~# python3
+Python 3.9.16 (main, Dec 10 2022, 13:47:19) 
+[GCC 10.3.1 20210424] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> roster= {"lily":"devin":"max"}
+  File "<stdin>", line 1
+    roster= {"lily":"devin":"max"}
+                           ^
+SyntaxError: invalid syntax
+>>> roster = {"lily":"devin":"max"}
+  File "<stdin>", line 1
+    roster = {"lily":"devin":"max"}
+                            ^
+SyntaxError: invalid syntax
+>>> roster = {"lily": "archer","dax": "healer"}
+>>> print (roster)
+{'lily': 'archer', 'dax': 'healer'}
+>>> print (roster["maria"])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 'maria'
+>>> print (roster["maria"])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 'maria'
+>>> print (roster.get("maria","not found"))
+not found
+>>> 
+>>> name= input("maria":).strip().lower()
+  File "<stdin>", line 1
+    name= input("maria":).strip().lower()
+                       ^
+SyntaxError: invalid syntax
+>>> if name in roster:
+... 
+  File "<stdin>", line 2
+    
+    ^
+IndentationError: expected an indented block
+>>> if name in roster
+  File "<stdin>", line 1
+    if name in roster
+                     ^
+SyntaxError: invalid syntax
+>>> if name in roster:
+... print ("healer":, roster[nina])
+  File "<stdin>", line 2
+    print ("healer":, roster[nina])
+    ^
+IndentationError: expected an indented block
+>>> else:
+  File "<stdin>", line 1
+    else:
+    ^
+SyntaxError: invalid syntax
+>>> else:
+  File "<stdin>", line 1
+    else:
+    ^
+SyntaxError: invalid syntax
+>>> name= "nina"
+>>> print (lookup "name")
+  File "<stdin>", line 1
+    print (lookup "name")
+                  ^
+SyntaxError: invalid syntax
+>>> role= "mage"
+>>> print (role)
+mage
+>>> player= "aria,mage"
+>>> print (player)
+aria,mage
+>>> player2= "max,archer"
+>>> print (player2)
+max,archer
+>>> print (1,add 2, lookup
+  File "<stdin>", line 1
+    print (1,add 2, lookup
+                 ^
